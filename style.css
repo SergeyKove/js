@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.png');
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: orange;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header p {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.box-content {
+    width: 1000px;
+    background-color: rgb(97, 97, 172);
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+.fixed-box {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-top {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.item-top__text {
+    
+    padding: 5px 0 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-top__text:not(:last-child) {
+    border-bottom: 2px solid rgb(243, 241, 241);
+}
+
+.icons {
+    align-self: flex-end;
+    margin-right: 15px;
+}
+
+.icon {
+    width: 18px;
+    background-color: rgb(243, 241, 241);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.item-bottom {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.item-bottom__1 {
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: rgb(59, 59, 59);
+    background-color: rgb(247, 245, 245);
+    border-bottom: 2px solid rgb(207, 207, 207);
+    padding: 10px 0 10px 10px;
+}
+
+.search__seach {
+    margin: 15px 0 0 10px;
+    padding: 5px;
+    width: 600px;
+    border: 2px solid rgb(167, 167, 236);
+    border-radius: 5px;
+}
+
+.seach-seach_text {
+    margin: 2px 0 0 10px;
+    padding-left: 2px;
+    font-size: 12px;
+    color: gray;
+}
+
+.seach__bottom {
+    font-weight: 550;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0 10px 10px;
+    background-color: orange;
+}
+
+.doneButton {
+    width: 10px;
+    height: 15px;
+}
+
+.editButton {
+    width: 10px;
+    height: 15px;
+}
+
+.deleteButton {
+    width: 10px;
+    height: 15px;
+}

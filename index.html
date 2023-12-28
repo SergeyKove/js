@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="box-content">
+        <div class="fixed-box">
+            <header class="header">
+                <h1 id="elem1">ToDo List</h1>
+                <p>Список задач на сегодня</p>
+            </header>
+
+            <main class="main">
+                <div class="item-top">
+                    <!-- <div class="item-top__text">
+                        <span>Купить молоко</span>
+                        <seach class="icons">
+                            <input class="icon" type="image" src="img/icon-check-mark.png">
+                            <input class="icon" type="image" src="img/icon-pencil.png">
+                            <input class="icon" type="image" src="img/icon-cross.png">
+                        </seach>
+                    </div>
+
+                    <div class="item-top__text">
+                        <span>Приготовить еду</span>
+                        <seach class="icons">
+                            <input class="icon" type="image" src="img/icon-check-mark.png">
+                            <input class="icon" type="image" src="img/icon-pencil.png">
+                            <input class="icon" type="image" src="img/icon-cross.png">
+                        </seach>
+                    </div>
+
+                    <div class="item-top__text">
+                        <span>Сходить погулять</span>
+                        <seach class="icons">
+                            <input class="icon" type="image" src="img/icon-check-mark.png">
+                            <input class="icon" type="image" src="img/icon-pencil.png">
+                            <input class="icon" type="image" src="img/icon-cross.png">
+                        </seach>
+                    </div> -->
+                    <ul id="item-list"></ul>
+                </div>
+
+                <div class="item-bottom">
+                    <div class="item-bottom__1">
+                        Добавить новую задачу
+                    </div>
+
+                    <div class="item-bottom__2">
+                        <search class="seach">
+                            <input id="adText" class="search__seach" type="search" placeholder="Текст задачи">
+                            <p class="seach-seach_text">Что делаем, сколько времени тратим, какой результат получаем</p>
+                            <input id="adButton" class="seach__bottom" type="button" value="Добавить">
+                        </search>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
