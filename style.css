@@ -110,16 +110,36 @@ h1 {
 }
 
 .doneButton {
-    width: 10px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-image: url(img/icon-check-mark.png);
+    background-position: center;
+    border: none;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    
 }
 
 .editButton {
-    width: 10px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-image: url(img/icon-pencil.png);
+    background-position: center;
+    border: none;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    
 }
 
 .deleteButton {
-    width: 10px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/icon-cross.png);
+    background-position: center;
+    border: none;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    
 }
